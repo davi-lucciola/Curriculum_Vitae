@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+}
+
+body {
+    background-image: url('./imgs/endless-constellation.svg');
+}
+
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    letter-spacing: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.4);
+    color: aliceblue;
+    height: 8vh;
+    box-shadow: 1px 5px 20px rgba(1, 48, 5, 0.8);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* justify-content: space-between; */
+
+    /* border: 1px solid red; */
+    margin-top: 3vh;
+    margin-inline: auto;
+    padding: 5vh;
+    height: fit-content;
+    max-width: 800px;
+}
+
+main div.categoria {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    padding: 16px;
+    padding-inline: 24px;
+
+    background: rgba(0, 0, 0, 0.427);
+    color: aliceblue;
+
+    height: 15rem;
+    border-radius: 20px;
+}
+
+div.categoria h2 {
+    /* border: 1px solid red; */
+    width: fit-content;
+
+    align-self: center;
+
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+div.categoria div.content {
+    border: 1px solid red;
+}
+
+div#links {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.categoria img#img_perfil {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+div.categoria .content {
+    display: flex;
+    flex-direction: column;
+}
